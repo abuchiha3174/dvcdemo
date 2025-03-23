@@ -1,0 +1,15 @@
+conda create -p venv python==3.12 -y
+
+create gitignore
+
+add venv to gitignore
+
+activate the conda environment
+
+conda activate venv
+
+add dvc in requirements.txt
+do dvc init
+
+
+dvc add data/data.txt to track the required data file
